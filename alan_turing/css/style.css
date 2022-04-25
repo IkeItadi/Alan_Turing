@@ -1,0 +1,64 @@
+#main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: auto;
+    padding: 2%;
+}
+
+.maincard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.img-caption {
+    padding: 100%;
+}
+
+.tribute-info {
+    padding: 50%;
+}
+
+h1,
+p,
+h4,
+figcaption {
+    text-align: center;
+}
+
+.maincard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-caption {
+    padding: 2px 16px;
+}
+
+img,
+#image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    padding-top: 19px;
+}
